@@ -54,7 +54,7 @@ echo Please wait...                                                             
 
 ls
 cat KaliinVNC
-clear
+
 $HOME
 ls
 cd $HOME
@@ -62,9 +62,6 @@ ls
 
 echo" "
 
-ls
-cat KaliinVNC
-clear
 $HOME
 ls
 cd $HOME
