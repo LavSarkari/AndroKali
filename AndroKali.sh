@@ -66,20 +66,9 @@ sleep 0.4
 
 echo Please wait...                                                                                                                                    echo "[Read carefully the command to run Kali Linux OS In VNC viewer...] "
 
-ls
+
 cat KaliinVNC
 
-$HOME
-ls
+echo " "
 cd $HOME
-ls
-
-echo" "
-
-$HOME
-ls
-cd $HOME
-ls
-                                                                                                                                                       echo" "
-echo "[installation completed]"                                                                                                                        echo " "
 sleep 1
