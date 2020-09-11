@@ -15,19 +15,33 @@ cd $HOME
 cd
 echo " "
 apt-get update -y
+echo " "
 echo " [$] Installation completed [10%]"
+echo " "
 pkg install wget -y
+echo " "
 echo " [$] Installation completed [29%]"
+echo " "
 pkg install python -y
+echo " "
 echo " [$] Installation completed [41%]"
+echo " "
 apt install figlet toilet -y
+echo " "
 echo " [$] Installation completed [53%]"
+echo " "
 pkg install python2 -y
+echo " "
 echo " [$] Installation completed [68%]"
+echo " "
 pkg install openssh -y
+echo " "
 echo " [$] Installation completed [82%]"
+echo " "
 pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh ls cd AndroKali
+echo " "
 echo " [$] Installation completed [99%]"
+echo " "
 ls
 echo " "
 cd AndroKali
