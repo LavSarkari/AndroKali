@@ -7,12 +7,14 @@ $ ./start-kali.sh
 
 2) It will open $root@localhost
 
-3) Now Copy-padt this....
+3) Now Copy-past this....
+
 wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Xfce4/de-apt-xfce4.sh && bash de-apt-xfce4.sh
 
 4) It may takes Some time.. Dependent on your internet speed connection.
 
 5) Now Install the VNC Viwer for Android (link below)
+
 https://play.google.com/store/apps/details?id=com.realvnc.viewer.android
 
 6) Now, Type vncserver-start in your root@localhost
