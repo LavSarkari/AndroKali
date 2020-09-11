@@ -1,0 +1,26 @@
+[To Run Kali Linux In Android Follow these Steps...]
+
+1) Type these commond in you termux....
+
+$ cd
+$ ./start-kali.sh
+
+2) It will open $root@localhost
+
+3) Now Copy-padt this....
+wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Xfce4/de-apt-xfce4.sh && bash de-apt-xfce4.sh
+
+4) It may takes Some time.. Dependent on your internet speed connection.
+
+5) Now Install the VNC Viwer for Android (link below)
+https://play.google.com/store/apps/details?id=com.realvnc.viewer.android
+
+6) Now, Type vncserver-start in your root@localhost
+
+7) Now the server starts on host 127.0.0.1:5901
+
+8) Now open VNC viewer and click on + icon and create host access
+
+9) Now the the gui of kali linux has been started in VNC viewer so start practising now......
+
+Note:- Don't remove termux from background while using kali linux in VNC viwer beacuse the vnc host files are present in termux app so...
